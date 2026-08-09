@@ -10,13 +10,13 @@
       
       
       
-        <link rel="canonical" href="https://github.com/sara-czasak/py-simple-wrap/tutorial/easy_strings/">
+        <link rel="canonical" href="https://github.com/sara-czasak/py-simple-wrap/tutorial/easy_colors/">
       
       
-        <link rel="prev" href="../easy_flow/">
+        <link rel="prev" href="../easy_async/">
       
       
-        <link rel="next" href="../easy_web/">
+        <link rel="next" href="../easy_converter/">
       
       
         
@@ -27,7 +27,7 @@
     
     
       
-        <title>Easy Strings - py-simple-wrap</title>
+        <title>Easy Colors - py-simple-wrap</title>
       
     
     
@@ -78,7 +78,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#easy-strings" class="md-skip">
+        <a href="#easy-colors" class="md-skip">
           Skip to content
         </a>
       
@@ -114,7 +114,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Easy Strings
+              Easy Colors
             
           </span>
         </div>
@@ -363,37 +363,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Easy Strings
-  
-
-    
-  </span>
-  
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../easy_strings/" class="md-nav__link">
         
   
   
@@ -409,59 +382,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#a-small-real-world-example" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        A small real-world example
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#what-happened" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        What happened?
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#why-use-these-helpers" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Why use these helpers?
-      
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -527,10 +447,37 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../easy_colors/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Easy Colors
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -546,6 +493,59 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#a-small-real-world-example" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        A small real-world example
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#what-happened" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        What happened?
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#why-use-these-helpers" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Why use these helpers?
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -1527,43 +1527,35 @@
   
 
 
-<h1 id="easy-strings">Easy Strings</h1>
-<p>Working with text is something you'll do in almost every Python project. Whether you're cleaning user input, creating filenames, or preparing text for URLs, <code>easy_strings</code> provides simple helpers that keep your code easy to read.</p>
+<h1 id="easy-colors">Easy Colors</h1>
+<p>Working with colors is common when building websites, user interfaces, data visualizations, or graphics. Whether you're converting between color formats, validating user input, or checking color accessibility, <code>easy_colors</code> provides beginner-friendly helpers that make color manipulation simple and easy to read. :contentReference[oaicite:0]{index=0}</p>
 <h2 id="a-small-real-world-example">A small real-world example</h2>
-<p>Imagine you're collecting article titles from users. Before saving them, you want to:</p>
-<ul>
-<li>remove extra spaces,</li>
-<li>create a <code>snake_case</code> filename,</li>
-<li>count how many words the title contains.</li>
-</ul>
-<div class="highlight"><pre><span></span><code><span class="kn">from</span><span class="w"> </span><span class="nn">py_simple</span><span class="w"> </span><span class="kn">import</span> <span class="n">remove_extra_spaces</span><span class="p">,</span> <span class="n">to_snake_case</span><span class="p">,</span> <span class="n">count_words</span>
+<p>Imagine you're creating a website where users can choose a theme color. Before saving it, you want to verify that the color is valid, convert it to RGB, and determine whether it's considered a light color.</p>
+<div class="highlight"><pre><span></span><code><span class="kn">from</span><span class="w"> </span><span class="nn">py_simple</span><span class="w"> </span><span class="kn">import</span> <span class="n">is_valid_hex</span><span class="p">,</span> <span class="n">hex_to_rgb</span><span class="p">,</span> <span class="n">is_light_color</span>
 
-<span class="n">title</span> <span class="o">=</span> <span class="s2">&quot;   My   First    Python Project!   &quot;</span>
+<span class="n">color</span> <span class="o">=</span> <span class="s2">&quot;#4CAF50&quot;</span>
 
-<span class="n">clean_title</span> <span class="o">=</span> <span class="n">remove_extra_spaces</span><span class="p">(</span><span class="n">title</span><span class="p">)</span>
-<span class="n">filename</span> <span class="o">=</span> <span class="n">to_snake_case</span><span class="p">(</span><span class="n">clean_title</span><span class="p">)</span>
-<span class="n">words</span> <span class="o">=</span> <span class="n">count_words</span><span class="p">(</span><span class="n">clean_title</span><span class="p">)</span>
-
-<span class="nb">print</span><span class="p">(</span><span class="n">clean_title</span><span class="p">)</span>
-<span class="c1"># My First Python Project!</span>
-
-<span class="nb">print</span><span class="p">(</span><span class="n">filename</span><span class="p">)</span>
-<span class="c1"># my_first_python_project</span>
-
-<span class="nb">print</span><span class="p">(</span><span class="n">words</span><span class="p">)</span>
-<span class="c1"># 4</span>
+<span class="k">if</span> <span class="n">is_valid_hex</span><span class="p">(</span><span class="n">color</span><span class="p">):</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">hex_to_rgb</span><span class="p">(</span><span class="n">color</span><span class="p">))</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">is_light_color</span><span class="p">(</span><span class="n">color</span><span class="p">))</span>
+<span class="k">else</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Invalid color.&quot;</span><span class="p">)</span>
+</code></pre></div>
+<p>Example output:</p>
+<div class="highlight"><pre><span></span><code>(76, 175, 80)
+True
 </code></pre></div>
 <h2 id="what-happened">What happened?</h2>
-<p><code>remove_extra_spaces()</code> removes leading, trailing, and repeated spaces from the text.</p>
-<p><code>to_snake_case()</code> converts the cleaned text into <code>snake_case</code>, making it useful for filenames, variables, or URLs.</p>
-<p><code>count_words()</code> counts the number of words in the cleaned text without needing any extra logic.</p>
+<p><code>is_valid_hex()</code> checks whether the input is a valid hexadecimal color code.</p>
+<p><code>hex_to_rgb()</code> converts the hexadecimal color into an <code>(R, G, B)</code> tuple.</p>
+<p><code>is_light_color()</code> calculates the perceived luminance of the color and determines whether it should be considered light, making it useful for choosing readable text colors. :contentReference[oaicite:1]{index=1}</p>
 <h2 id="why-use-these-helpers">Why use these helpers?</h2>
-<p>Instead of combining multiple string methods and regular expressions every time, you can write cleaner and more readable code:</p>
-<div class="highlight"><pre><span></span><code><span class="n">clean_title</span> <span class="o">=</span> <span class="n">remove_extra_spaces</span><span class="p">(</span><span class="n">title</span><span class="p">)</span>
-<span class="n">filename</span> <span class="o">=</span> <span class="n">to_snake_case</span><span class="p">(</span><span class="n">clean_title</span><span class="p">)</span>
-<span class="n">words</span> <span class="o">=</span> <span class="n">count_words</span><span class="p">(</span><span class="n">clean_title</span><span class="p">)</span>
+<p>Instead of writing regular expressions, manually converting color formats, or implementing luminance calculations yourself, you can simply write:</p>
+<div class="highlight"><pre><span></span><code><span class="k">if</span> <span class="n">is_valid_hex</span><span class="p">(</span><span class="n">color</span><span class="p">):</span>
+    <span class="n">rgb</span> <span class="o">=</span> <span class="n">hex_to_rgb</span><span class="p">(</span><span class="n">color</span><span class="p">)</span>
+    <span class="n">light</span> <span class="o">=</span> <span class="n">is_light_color</span><span class="p">(</span><span class="n">color</span><span class="p">)</span>
 </code></pre></div>
-<p>These helpers keep your code simple, readable, and beginner-friendly.</p>
+<p>These helpers keep color manipulation simple, readable, and beginner-friendly while providing useful tools for validation, conversion, accessibility, and working with RGB, HSL, RGBA, and hexadecimal colors.</p>
 
 
 

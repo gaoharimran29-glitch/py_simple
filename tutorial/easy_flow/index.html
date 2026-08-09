@@ -10,13 +10,13 @@
       
       
       
-        <link rel="canonical" href="https://github.com/sara-czasak/py-simple-wrap/tutorial/easy_strings/">
+        <link rel="canonical" href="https://github.com/sara-czasak/py-simple-wrap/tutorial/easy_flow/">
       
       
-        <link rel="prev" href="../easy_flow/">
+        <link rel="prev" href="../quickstart/">
       
       
-        <link rel="next" href="../easy_web/">
+        <link rel="next" href="../easy_strings/">
       
       
         
@@ -27,7 +27,7 @@
     
     
       
-        <title>Easy Strings - py-simple-wrap</title>
+        <title>Easy Flow - py-simple-wrap</title>
       
     
     
@@ -78,7 +78,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#easy-strings" class="md-skip">
+        <a href="#easy-flow" class="md-skip">
           Skip to content
         </a>
       
@@ -114,7 +114,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Easy Strings
+              Easy Flow
             
           </span>
         </div>
@@ -335,34 +335,6 @@
                 
   
   
-  
-  
-    <li class="md-nav__item">
-      <a href="../easy_flow/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Easy Flow
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
     
   
   
@@ -382,7 +354,7 @@
   <span class="md-ellipsis">
     
   
-    Easy Strings
+    Easy Flow
   
 
     
@@ -400,7 +372,7 @@
   <span class="md-ellipsis">
     
   
-    Easy Strings
+    Easy Flow
   
 
     
@@ -462,6 +434,34 @@
   
 </nav>
       
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../easy_strings/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Easy Strings
+  
+
+    
+  </span>
+  
+  
+
+      </a>
     </li>
   
 
@@ -1527,43 +1527,37 @@
   
 
 
-<h1 id="easy-strings">Easy Strings</h1>
-<p>Working with text is something you'll do in almost every Python project. Whether you're cleaning user input, creating filenames, or preparing text for URLs, <code>easy_strings</code> provides simple helpers that keep your code easy to read.</p>
+<h1 id="easy-flow">Easy Flow</h1>
+<p>Running Python files from other scripts can be useful when building tools, automation scripts, or simple workflows. The <code>easy_flow</code> module provides a simple helper that lets you execute Python files while handling errors in a clean and readable way.</p>
 <h2 id="a-small-real-world-example">A small real-world example</h2>
-<p>Imagine you're collecting article titles from users. Before saving them, you want to:</p>
-<ul>
-<li>remove extra spaces,</li>
-<li>create a <code>snake_case</code> filename,</li>
-<li>count how many words the title contains.</li>
-</ul>
-<div class="highlight"><pre><span></span><code><span class="kn">from</span><span class="w"> </span><span class="nn">py_simple</span><span class="w"> </span><span class="kn">import</span> <span class="n">remove_extra_spaces</span><span class="p">,</span> <span class="n">to_snake_case</span><span class="p">,</span> <span class="n">count_words</span>
+<p>Imagine you have a small automation project with different Python scripts. Instead of opening each file manually, you want to run them from a main program.</p>
+<div class="highlight"><pre><span></span><code><span class="kn">from</span><span class="w"> </span><span class="nn">py_simple</span><span class="w"> </span><span class="kn">import</span> <span class="n">run_py_file</span>
 
-<span class="n">title</span> <span class="o">=</span> <span class="s2">&quot;   My   First    Python Project!   &quot;</span>
-
-<span class="n">clean_title</span> <span class="o">=</span> <span class="n">remove_extra_spaces</span><span class="p">(</span><span class="n">title</span><span class="p">)</span>
-<span class="n">filename</span> <span class="o">=</span> <span class="n">to_snake_case</span><span class="p">(</span><span class="n">clean_title</span><span class="p">)</span>
-<span class="n">words</span> <span class="o">=</span> <span class="n">count_words</span><span class="p">(</span><span class="n">clean_title</span><span class="p">)</span>
-
-<span class="nb">print</span><span class="p">(</span><span class="n">clean_title</span><span class="p">)</span>
-<span class="c1"># My First Python Project!</span>
-
-<span class="nb">print</span><span class="p">(</span><span class="n">filename</span><span class="p">)</span>
-<span class="c1"># my_first_python_project</span>
-
-<span class="nb">print</span><span class="p">(</span><span class="n">words</span><span class="p">)</span>
-<span class="c1"># 4</span>
+<span class="n">run_py_file</span><span class="p">(</span><span class="s2">&quot;backup.py&quot;</span><span class="p">)</span>
+</code></pre></div>
+<p>Example output:</p>
+<div class="highlight"><pre><span></span><code>RUNNING: backup.py
+Backup completed successfully!
 </code></pre></div>
 <h2 id="what-happened">What happened?</h2>
-<p><code>remove_extra_spaces()</code> removes leading, trailing, and repeated spaces from the text.</p>
-<p><code>to_snake_case()</code> converts the cleaned text into <code>snake_case</code>, making it useful for filenames, variables, or URLs.</p>
-<p><code>count_words()</code> counts the number of words in the cleaned text without needing any extra logic.</p>
-<h2 id="why-use-these-helpers">Why use these helpers?</h2>
-<p>Instead of combining multiple string methods and regular expressions every time, you can write cleaner and more readable code:</p>
-<div class="highlight"><pre><span></span><code><span class="n">clean_title</span> <span class="o">=</span> <span class="n">remove_extra_spaces</span><span class="p">(</span><span class="n">title</span><span class="p">)</span>
-<span class="n">filename</span> <span class="o">=</span> <span class="n">to_snake_case</span><span class="p">(</span><span class="n">clean_title</span><span class="p">)</span>
-<span class="n">words</span> <span class="o">=</span> <span class="n">count_words</span><span class="p">(</span><span class="n">clean_title</span><span class="p">)</span>
+<p><code>run_py_file()</code> runs a Python file as if it was executed directly from the command line, making it easy to launch scripts from another program.</p>
+<p>If something goes wrong while running the file, <code>easy_flow</code> catches the error and raises an <code>EasyFlowError</code> with a clear message instead of exposing different types of Python exceptions.</p>
+<p>For example:</p>
+<div class="highlight"><pre><span></span><code><span class="kn">from</span><span class="w"> </span><span class="nn">py_simple</span><span class="w"> </span><span class="kn">import</span> <span class="n">run_py_file</span>
+
+<span class="n">run_py_file</span><span class="p">(</span><span class="s2">&quot;broken_script.py&quot;</span><span class="p">)</span>
 </code></pre></div>
-<p>These helpers keep your code simple, readable, and beginner-friendly.</p>
+<p>Output:</p>
+<div class="highlight"><pre><span></span><code>RUNNING: broken_script.py
+
+
+ERROR: Something went wrong inside the script
+</code></pre></div>
+<h2 id="why-use-these-helpers">Why use these helpers?</h2>
+<p>Instead of writing the same execution logic and error handling every time, you can simply use:</p>
+<div class="highlight"><pre><span></span><code><span class="n">run_py_file</span><span class="p">(</span><span class="s2">&quot;script.py&quot;</span><span class="p">)</span>
+</code></pre></div>
+<p>This keeps your workflow automation simple, readable, and beginner-friendly while providing consistent error handling when running Python files.</p>
 
 
 
