@@ -3,85 +3,86 @@
   <text x="24" y="24" fill="#c9d1d9" font-family="sans-serif" font-size="14">
     py-simple-wrap star history
   </text>
-  <polyline points="24.0,240.0 37.2,223.8 50.4,218.4 63.7,218.4 76.9,218.4 90.1,218.4 103.3,218.4 116.6,180.5 129.8,175.1 143.0,164.3 156.2,164.3 169.4,148.1 182.7,148.1 195.9,148.1 209.1,142.7 222.3,137.3 235.6,137.3 248.8,137.3 262.0,126.5 275.2,126.5 288.4,126.5 301.7,126.5 314.9,126.5 328.1,126.5 341.3,121.1 354.6,121.1 367.8,115.7 381.0,115.7 394.2,115.7 407.4,110.3 420.7,110.3 433.9,104.9 447.1,94.1 460.3,94.1 473.6,88.6 486.8,88.6 500.0,83.2 513.2,77.8 526.4,72.4 539.7,67.0 552.9,67.0 566.1,67.0 579.3,67.0 592.6,61.6 605.8,61.6 619.0,61.6 632.2,56.2 645.4,56.2 658.7,50.8 671.9,50.8 685.1,45.4 698.3,45.4 711.6,45.4 724.8,40.0 738.0,40.0 751.2,40.0 764.4,40.0 777.7,40.0 790.9,40.0 804.1,45.4 817.3,45.4 830.6,50.8 843.8,50.8 857.0,50.8 870.2,50.8 883.4,45.4 896.7,45.4 909.9,45.4 923.1,45.4 936.3,45.4 949.6,45.4 962.8,45.4 976.0,45.4" fill="none" stroke="#2f81f7" stroke-width="2"
-    stroke-dasharray="1028.1" stroke-dashoffset="1028.1">
-    <animate attributeName="stroke-dashoffset" from="1028.1" to="0"
+  <polyline points="24.0,240.0 37.0,223.8 50.1,218.4 63.1,218.4 76.2,218.4 89.2,218.4 102.2,218.4 115.3,180.5 128.3,175.1 141.4,164.3 154.4,164.3 167.5,148.1 180.5,148.1 193.5,148.1 206.6,142.7 219.6,137.3 232.7,137.3 245.7,137.3 258.7,126.5 271.8,126.5 284.8,126.5 297.9,126.5 310.9,126.5 323.9,126.5 337.0,121.1 350.0,121.1 363.1,115.7 376.1,115.7 389.2,115.7 402.2,110.3 415.2,110.3 428.3,104.9 441.3,94.1 454.4,94.1 467.4,88.6 480.4,88.6 493.5,83.2 506.5,77.8 519.6,72.4 532.6,67.0 545.6,67.0 558.7,67.0 571.7,67.0 584.8,61.6 597.8,61.6 610.8,61.6 623.9,56.2 636.9,56.2 650.0,50.8 663.0,50.8 676.1,45.4 689.1,45.4 702.1,45.4 715.2,40.0 728.2,40.0 741.3,40.0 754.3,40.0 767.3,40.0 780.4,40.0 793.4,45.4 806.5,45.4 819.5,50.8 832.5,50.8 845.6,50.8 858.6,50.8 871.7,45.4 884.7,45.4 897.8,45.4 910.8,45.4 923.8,45.4 936.9,45.4 949.9,45.4 963.0,45.4 976.0,45.4" fill="none" stroke="#2f81f7" stroke-width="2"
+    stroke-dasharray="1028.8" stroke-dashoffset="1028.8">
+    <animate attributeName="stroke-dashoffset" from="1028.8" to="0"
       dur="2s" fill="freeze" calcMode="spline" keySplines="0.4 0 0.2 1" />
   </polyline>
   <circle cx="24.0" cy="240.0" r="3.5" fill="#2f81f7"><animate attributeName="opacity" from="0" to="1" begin="0.00s" dur="0.2s" fill="freeze" /></circle>
-<circle cx="37.2" cy="223.8" r="3.5" fill="#2f81f7"><animate attributeName="opacity" from="0" to="1" begin="0.03s" dur="0.2s" fill="freeze" /></circle>
-<circle cx="50.4" cy="218.4" r="3.5" fill="#2f81f7"><animate attributeName="opacity" from="0" to="1" begin="0.06s" dur="0.2s" fill="freeze" /></circle>
-<circle cx="63.7" cy="218.4" r="3.5" fill="#2f81f7"><animate attributeName="opacity" from="0" to="1" begin="0.08s" dur="0.2s" fill="freeze" /></circle>
-<circle cx="76.9" cy="218.4" r="3.5" fill="#2f81f7"><animate attributeName="opacity" from="0" to="1" begin="0.11s" dur="0.2s" fill="freeze" /></circle>
-<circle cx="90.1" cy="218.4" r="3.5" fill="#2f81f7"><animate attributeName="opacity" from="0" to="1" begin="0.14s" dur="0.2s" fill="freeze" /></circle>
-<circle cx="103.3" cy="218.4" r="3.5" fill="#2f81f7"><animate attributeName="opacity" from="0" to="1" begin="0.17s" dur="0.2s" fill="freeze" /></circle>
-<circle cx="116.6" cy="180.5" r="3.5" fill="#2f81f7"><animate attributeName="opacity" from="0" to="1" begin="0.19s" dur="0.2s" fill="freeze" /></circle>
-<circle cx="129.8" cy="175.1" r="3.5" fill="#2f81f7"><animate attributeName="opacity" from="0" to="1" begin="0.22s" dur="0.2s" fill="freeze" /></circle>
-<circle cx="143.0" cy="164.3" r="3.5" fill="#2f81f7"><animate attributeName="opacity" from="0" to="1" begin="0.25s" dur="0.2s" fill="freeze" /></circle>
-<circle cx="156.2" cy="164.3" r="3.5" fill="#2f81f7"><animate attributeName="opacity" from="0" to="1" begin="0.28s" dur="0.2s" fill="freeze" /></circle>
-<circle cx="169.4" cy="148.1" r="3.5" fill="#2f81f7"><animate attributeName="opacity" from="0" to="1" begin="0.31s" dur="0.2s" fill="freeze" /></circle>
-<circle cx="182.7" cy="148.1" r="3.5" fill="#2f81f7"><animate attributeName="opacity" from="0" to="1" begin="0.33s" dur="0.2s" fill="freeze" /></circle>
-<circle cx="195.9" cy="148.1" r="3.5" fill="#2f81f7"><animate attributeName="opacity" from="0" to="1" begin="0.36s" dur="0.2s" fill="freeze" /></circle>
-<circle cx="209.1" cy="142.7" r="3.5" fill="#2f81f7"><animate attributeName="opacity" from="0" to="1" begin="0.39s" dur="0.2s" fill="freeze" /></circle>
-<circle cx="222.3" cy="137.3" r="3.5" fill="#2f81f7"><animate attributeName="opacity" from="0" to="1" begin="0.42s" dur="0.2s" fill="freeze" /></circle>
-<circle cx="235.6" cy="137.3" r="3.5" fill="#2f81f7"><animate attributeName="opacity" from="0" to="1" begin="0.44s" dur="0.2s" fill="freeze" /></circle>
-<circle cx="248.8" cy="137.3" r="3.5" fill="#2f81f7"><animate attributeName="opacity" from="0" to="1" begin="0.47s" dur="0.2s" fill="freeze" /></circle>
-<circle cx="262.0" cy="126.5" r="3.5" fill="#2f81f7"><animate attributeName="opacity" from="0" to="1" begin="0.50s" dur="0.2s" fill="freeze" /></circle>
-<circle cx="275.2" cy="126.5" r="3.5" fill="#2f81f7"><animate attributeName="opacity" from="0" to="1" begin="0.53s" dur="0.2s" fill="freeze" /></circle>
-<circle cx="288.4" cy="126.5" r="3.5" fill="#2f81f7"><animate attributeName="opacity" from="0" to="1" begin="0.56s" dur="0.2s" fill="freeze" /></circle>
-<circle cx="301.7" cy="126.5" r="3.5" fill="#2f81f7"><animate attributeName="opacity" from="0" to="1" begin="0.58s" dur="0.2s" fill="freeze" /></circle>
-<circle cx="314.9" cy="126.5" r="3.5" fill="#2f81f7"><animate attributeName="opacity" from="0" to="1" begin="0.61s" dur="0.2s" fill="freeze" /></circle>
-<circle cx="328.1" cy="126.5" r="3.5" fill="#2f81f7"><animate attributeName="opacity" from="0" to="1" begin="0.64s" dur="0.2s" fill="freeze" /></circle>
-<circle cx="341.3" cy="121.1" r="3.5" fill="#2f81f7"><animate attributeName="opacity" from="0" to="1" begin="0.67s" dur="0.2s" fill="freeze" /></circle>
-<circle cx="354.6" cy="121.1" r="3.5" fill="#2f81f7"><animate attributeName="opacity" from="0" to="1" begin="0.69s" dur="0.2s" fill="freeze" /></circle>
-<circle cx="367.8" cy="115.7" r="3.5" fill="#2f81f7"><animate attributeName="opacity" from="0" to="1" begin="0.72s" dur="0.2s" fill="freeze" /></circle>
-<circle cx="381.0" cy="115.7" r="3.5" fill="#2f81f7"><animate attributeName="opacity" from="0" to="1" begin="0.75s" dur="0.2s" fill="freeze" /></circle>
-<circle cx="394.2" cy="115.7" r="3.5" fill="#2f81f7"><animate attributeName="opacity" from="0" to="1" begin="0.78s" dur="0.2s" fill="freeze" /></circle>
-<circle cx="407.4" cy="110.3" r="3.5" fill="#2f81f7"><animate attributeName="opacity" from="0" to="1" begin="0.81s" dur="0.2s" fill="freeze" /></circle>
-<circle cx="420.7" cy="110.3" r="3.5" fill="#2f81f7"><animate attributeName="opacity" from="0" to="1" begin="0.83s" dur="0.2s" fill="freeze" /></circle>
-<circle cx="433.9" cy="104.9" r="3.5" fill="#2f81f7"><animate attributeName="opacity" from="0" to="1" begin="0.86s" dur="0.2s" fill="freeze" /></circle>
-<circle cx="447.1" cy="94.1" r="3.5" fill="#2f81f7"><animate attributeName="opacity" from="0" to="1" begin="0.89s" dur="0.2s" fill="freeze" /></circle>
-<circle cx="460.3" cy="94.1" r="3.5" fill="#2f81f7"><animate attributeName="opacity" from="0" to="1" begin="0.92s" dur="0.2s" fill="freeze" /></circle>
-<circle cx="473.6" cy="88.6" r="3.5" fill="#2f81f7"><animate attributeName="opacity" from="0" to="1" begin="0.94s" dur="0.2s" fill="freeze" /></circle>
-<circle cx="486.8" cy="88.6" r="3.5" fill="#2f81f7"><animate attributeName="opacity" from="0" to="1" begin="0.97s" dur="0.2s" fill="freeze" /></circle>
-<circle cx="500.0" cy="83.2" r="3.5" fill="#2f81f7"><animate attributeName="opacity" from="0" to="1" begin="1.00s" dur="0.2s" fill="freeze" /></circle>
-<circle cx="513.2" cy="77.8" r="3.5" fill="#2f81f7"><animate attributeName="opacity" from="0" to="1" begin="1.03s" dur="0.2s" fill="freeze" /></circle>
-<circle cx="526.4" cy="72.4" r="3.5" fill="#2f81f7"><animate attributeName="opacity" from="0" to="1" begin="1.06s" dur="0.2s" fill="freeze" /></circle>
-<circle cx="539.7" cy="67.0" r="3.5" fill="#2f81f7"><animate attributeName="opacity" from="0" to="1" begin="1.08s" dur="0.2s" fill="freeze" /></circle>
-<circle cx="552.9" cy="67.0" r="3.5" fill="#2f81f7"><animate attributeName="opacity" from="0" to="1" begin="1.11s" dur="0.2s" fill="freeze" /></circle>
-<circle cx="566.1" cy="67.0" r="3.5" fill="#2f81f7"><animate attributeName="opacity" from="0" to="1" begin="1.14s" dur="0.2s" fill="freeze" /></circle>
-<circle cx="579.3" cy="67.0" r="3.5" fill="#2f81f7"><animate attributeName="opacity" from="0" to="1" begin="1.17s" dur="0.2s" fill="freeze" /></circle>
-<circle cx="592.6" cy="61.6" r="3.5" fill="#2f81f7"><animate attributeName="opacity" from="0" to="1" begin="1.19s" dur="0.2s" fill="freeze" /></circle>
-<circle cx="605.8" cy="61.6" r="3.5" fill="#2f81f7"><animate attributeName="opacity" from="0" to="1" begin="1.22s" dur="0.2s" fill="freeze" /></circle>
-<circle cx="619.0" cy="61.6" r="3.5" fill="#2f81f7"><animate attributeName="opacity" from="0" to="1" begin="1.25s" dur="0.2s" fill="freeze" /></circle>
-<circle cx="632.2" cy="56.2" r="3.5" fill="#2f81f7"><animate attributeName="opacity" from="0" to="1" begin="1.28s" dur="0.2s" fill="freeze" /></circle>
-<circle cx="645.4" cy="56.2" r="3.5" fill="#2f81f7"><animate attributeName="opacity" from="0" to="1" begin="1.31s" dur="0.2s" fill="freeze" /></circle>
-<circle cx="658.7" cy="50.8" r="3.5" fill="#2f81f7"><animate attributeName="opacity" from="0" to="1" begin="1.33s" dur="0.2s" fill="freeze" /></circle>
-<circle cx="671.9" cy="50.8" r="3.5" fill="#2f81f7"><animate attributeName="opacity" from="0" to="1" begin="1.36s" dur="0.2s" fill="freeze" /></circle>
-<circle cx="685.1" cy="45.4" r="3.5" fill="#2f81f7"><animate attributeName="opacity" from="0" to="1" begin="1.39s" dur="0.2s" fill="freeze" /></circle>
-<circle cx="698.3" cy="45.4" r="3.5" fill="#2f81f7"><animate attributeName="opacity" from="0" to="1" begin="1.42s" dur="0.2s" fill="freeze" /></circle>
-<circle cx="711.6" cy="45.4" r="3.5" fill="#2f81f7"><animate attributeName="opacity" from="0" to="1" begin="1.44s" dur="0.2s" fill="freeze" /></circle>
-<circle cx="724.8" cy="40.0" r="3.5" fill="#2f81f7"><animate attributeName="opacity" from="0" to="1" begin="1.47s" dur="0.2s" fill="freeze" /></circle>
-<circle cx="738.0" cy="40.0" r="3.5" fill="#2f81f7"><animate attributeName="opacity" from="0" to="1" begin="1.50s" dur="0.2s" fill="freeze" /></circle>
-<circle cx="751.2" cy="40.0" r="3.5" fill="#2f81f7"><animate attributeName="opacity" from="0" to="1" begin="1.53s" dur="0.2s" fill="freeze" /></circle>
-<circle cx="764.4" cy="40.0" r="3.5" fill="#2f81f7"><animate attributeName="opacity" from="0" to="1" begin="1.56s" dur="0.2s" fill="freeze" /></circle>
-<circle cx="777.7" cy="40.0" r="3.5" fill="#2f81f7"><animate attributeName="opacity" from="0" to="1" begin="1.58s" dur="0.2s" fill="freeze" /></circle>
-<circle cx="790.9" cy="40.0" r="3.5" fill="#2f81f7"><animate attributeName="opacity" from="0" to="1" begin="1.61s" dur="0.2s" fill="freeze" /></circle>
-<circle cx="804.1" cy="45.4" r="3.5" fill="#2f81f7"><animate attributeName="opacity" from="0" to="1" begin="1.64s" dur="0.2s" fill="freeze" /></circle>
-<circle cx="817.3" cy="45.4" r="3.5" fill="#2f81f7"><animate attributeName="opacity" from="0" to="1" begin="1.67s" dur="0.2s" fill="freeze" /></circle>
-<circle cx="830.6" cy="50.8" r="3.5" fill="#2f81f7"><animate attributeName="opacity" from="0" to="1" begin="1.69s" dur="0.2s" fill="freeze" /></circle>
-<circle cx="843.8" cy="50.8" r="3.5" fill="#2f81f7"><animate attributeName="opacity" from="0" to="1" begin="1.72s" dur="0.2s" fill="freeze" /></circle>
-<circle cx="857.0" cy="50.8" r="3.5" fill="#2f81f7"><animate attributeName="opacity" from="0" to="1" begin="1.75s" dur="0.2s" fill="freeze" /></circle>
-<circle cx="870.2" cy="50.8" r="3.5" fill="#2f81f7"><animate attributeName="opacity" from="0" to="1" begin="1.78s" dur="0.2s" fill="freeze" /></circle>
-<circle cx="883.4" cy="45.4" r="3.5" fill="#2f81f7"><animate attributeName="opacity" from="0" to="1" begin="1.81s" dur="0.2s" fill="freeze" /></circle>
-<circle cx="896.7" cy="45.4" r="3.5" fill="#2f81f7"><animate attributeName="opacity" from="0" to="1" begin="1.83s" dur="0.2s" fill="freeze" /></circle>
-<circle cx="909.9" cy="45.4" r="3.5" fill="#2f81f7"><animate attributeName="opacity" from="0" to="1" begin="1.86s" dur="0.2s" fill="freeze" /></circle>
-<circle cx="923.1" cy="45.4" r="3.5" fill="#2f81f7"><animate attributeName="opacity" from="0" to="1" begin="1.89s" dur="0.2s" fill="freeze" /></circle>
-<circle cx="936.3" cy="45.4" r="3.5" fill="#2f81f7"><animate attributeName="opacity" from="0" to="1" begin="1.92s" dur="0.2s" fill="freeze" /></circle>
-<circle cx="949.6" cy="45.4" r="3.5" fill="#2f81f7"><animate attributeName="opacity" from="0" to="1" begin="1.94s" dur="0.2s" fill="freeze" /></circle>
-<circle cx="962.8" cy="45.4" r="3.5" fill="#2f81f7"><animate attributeName="opacity" from="0" to="1" begin="1.97s" dur="0.2s" fill="freeze" /></circle>
+<circle cx="37.0" cy="223.8" r="3.5" fill="#2f81f7"><animate attributeName="opacity" from="0" to="1" begin="0.03s" dur="0.2s" fill="freeze" /></circle>
+<circle cx="50.1" cy="218.4" r="3.5" fill="#2f81f7"><animate attributeName="opacity" from="0" to="1" begin="0.05s" dur="0.2s" fill="freeze" /></circle>
+<circle cx="63.1" cy="218.4" r="3.5" fill="#2f81f7"><animate attributeName="opacity" from="0" to="1" begin="0.08s" dur="0.2s" fill="freeze" /></circle>
+<circle cx="76.2" cy="218.4" r="3.5" fill="#2f81f7"><animate attributeName="opacity" from="0" to="1" begin="0.11s" dur="0.2s" fill="freeze" /></circle>
+<circle cx="89.2" cy="218.4" r="3.5" fill="#2f81f7"><animate attributeName="opacity" from="0" to="1" begin="0.14s" dur="0.2s" fill="freeze" /></circle>
+<circle cx="102.2" cy="218.4" r="3.5" fill="#2f81f7"><animate attributeName="opacity" from="0" to="1" begin="0.16s" dur="0.2s" fill="freeze" /></circle>
+<circle cx="115.3" cy="180.5" r="3.5" fill="#2f81f7"><animate attributeName="opacity" from="0" to="1" begin="0.19s" dur="0.2s" fill="freeze" /></circle>
+<circle cx="128.3" cy="175.1" r="3.5" fill="#2f81f7"><animate attributeName="opacity" from="0" to="1" begin="0.22s" dur="0.2s" fill="freeze" /></circle>
+<circle cx="141.4" cy="164.3" r="3.5" fill="#2f81f7"><animate attributeName="opacity" from="0" to="1" begin="0.25s" dur="0.2s" fill="freeze" /></circle>
+<circle cx="154.4" cy="164.3" r="3.5" fill="#2f81f7"><animate attributeName="opacity" from="0" to="1" begin="0.27s" dur="0.2s" fill="freeze" /></circle>
+<circle cx="167.5" cy="148.1" r="3.5" fill="#2f81f7"><animate attributeName="opacity" from="0" to="1" begin="0.30s" dur="0.2s" fill="freeze" /></circle>
+<circle cx="180.5" cy="148.1" r="3.5" fill="#2f81f7"><animate attributeName="opacity" from="0" to="1" begin="0.33s" dur="0.2s" fill="freeze" /></circle>
+<circle cx="193.5" cy="148.1" r="3.5" fill="#2f81f7"><animate attributeName="opacity" from="0" to="1" begin="0.36s" dur="0.2s" fill="freeze" /></circle>
+<circle cx="206.6" cy="142.7" r="3.5" fill="#2f81f7"><animate attributeName="opacity" from="0" to="1" begin="0.38s" dur="0.2s" fill="freeze" /></circle>
+<circle cx="219.6" cy="137.3" r="3.5" fill="#2f81f7"><animate attributeName="opacity" from="0" to="1" begin="0.41s" dur="0.2s" fill="freeze" /></circle>
+<circle cx="232.7" cy="137.3" r="3.5" fill="#2f81f7"><animate attributeName="opacity" from="0" to="1" begin="0.44s" dur="0.2s" fill="freeze" /></circle>
+<circle cx="245.7" cy="137.3" r="3.5" fill="#2f81f7"><animate attributeName="opacity" from="0" to="1" begin="0.47s" dur="0.2s" fill="freeze" /></circle>
+<circle cx="258.7" cy="126.5" r="3.5" fill="#2f81f7"><animate attributeName="opacity" from="0" to="1" begin="0.49s" dur="0.2s" fill="freeze" /></circle>
+<circle cx="271.8" cy="126.5" r="3.5" fill="#2f81f7"><animate attributeName="opacity" from="0" to="1" begin="0.52s" dur="0.2s" fill="freeze" /></circle>
+<circle cx="284.8" cy="126.5" r="3.5" fill="#2f81f7"><animate attributeName="opacity" from="0" to="1" begin="0.55s" dur="0.2s" fill="freeze" /></circle>
+<circle cx="297.9" cy="126.5" r="3.5" fill="#2f81f7"><animate attributeName="opacity" from="0" to="1" begin="0.58s" dur="0.2s" fill="freeze" /></circle>
+<circle cx="310.9" cy="126.5" r="3.5" fill="#2f81f7"><animate attributeName="opacity" from="0" to="1" begin="0.60s" dur="0.2s" fill="freeze" /></circle>
+<circle cx="323.9" cy="126.5" r="3.5" fill="#2f81f7"><animate attributeName="opacity" from="0" to="1" begin="0.63s" dur="0.2s" fill="freeze" /></circle>
+<circle cx="337.0" cy="121.1" r="3.5" fill="#2f81f7"><animate attributeName="opacity" from="0" to="1" begin="0.66s" dur="0.2s" fill="freeze" /></circle>
+<circle cx="350.0" cy="121.1" r="3.5" fill="#2f81f7"><animate attributeName="opacity" from="0" to="1" begin="0.68s" dur="0.2s" fill="freeze" /></circle>
+<circle cx="363.1" cy="115.7" r="3.5" fill="#2f81f7"><animate attributeName="opacity" from="0" to="1" begin="0.71s" dur="0.2s" fill="freeze" /></circle>
+<circle cx="376.1" cy="115.7" r="3.5" fill="#2f81f7"><animate attributeName="opacity" from="0" to="1" begin="0.74s" dur="0.2s" fill="freeze" /></circle>
+<circle cx="389.2" cy="115.7" r="3.5" fill="#2f81f7"><animate attributeName="opacity" from="0" to="1" begin="0.77s" dur="0.2s" fill="freeze" /></circle>
+<circle cx="402.2" cy="110.3" r="3.5" fill="#2f81f7"><animate attributeName="opacity" from="0" to="1" begin="0.79s" dur="0.2s" fill="freeze" /></circle>
+<circle cx="415.2" cy="110.3" r="3.5" fill="#2f81f7"><animate attributeName="opacity" from="0" to="1" begin="0.82s" dur="0.2s" fill="freeze" /></circle>
+<circle cx="428.3" cy="104.9" r="3.5" fill="#2f81f7"><animate attributeName="opacity" from="0" to="1" begin="0.85s" dur="0.2s" fill="freeze" /></circle>
+<circle cx="441.3" cy="94.1" r="3.5" fill="#2f81f7"><animate attributeName="opacity" from="0" to="1" begin="0.88s" dur="0.2s" fill="freeze" /></circle>
+<circle cx="454.4" cy="94.1" r="3.5" fill="#2f81f7"><animate attributeName="opacity" from="0" to="1" begin="0.90s" dur="0.2s" fill="freeze" /></circle>
+<circle cx="467.4" cy="88.6" r="3.5" fill="#2f81f7"><animate attributeName="opacity" from="0" to="1" begin="0.93s" dur="0.2s" fill="freeze" /></circle>
+<circle cx="480.4" cy="88.6" r="3.5" fill="#2f81f7"><animate attributeName="opacity" from="0" to="1" begin="0.96s" dur="0.2s" fill="freeze" /></circle>
+<circle cx="493.5" cy="83.2" r="3.5" fill="#2f81f7"><animate attributeName="opacity" from="0" to="1" begin="0.99s" dur="0.2s" fill="freeze" /></circle>
+<circle cx="506.5" cy="77.8" r="3.5" fill="#2f81f7"><animate attributeName="opacity" from="0" to="1" begin="1.01s" dur="0.2s" fill="freeze" /></circle>
+<circle cx="519.6" cy="72.4" r="3.5" fill="#2f81f7"><animate attributeName="opacity" from="0" to="1" begin="1.04s" dur="0.2s" fill="freeze" /></circle>
+<circle cx="532.6" cy="67.0" r="3.5" fill="#2f81f7"><animate attributeName="opacity" from="0" to="1" begin="1.07s" dur="0.2s" fill="freeze" /></circle>
+<circle cx="545.6" cy="67.0" r="3.5" fill="#2f81f7"><animate attributeName="opacity" from="0" to="1" begin="1.10s" dur="0.2s" fill="freeze" /></circle>
+<circle cx="558.7" cy="67.0" r="3.5" fill="#2f81f7"><animate attributeName="opacity" from="0" to="1" begin="1.12s" dur="0.2s" fill="freeze" /></circle>
+<circle cx="571.7" cy="67.0" r="3.5" fill="#2f81f7"><animate attributeName="opacity" from="0" to="1" begin="1.15s" dur="0.2s" fill="freeze" /></circle>
+<circle cx="584.8" cy="61.6" r="3.5" fill="#2f81f7"><animate attributeName="opacity" from="0" to="1" begin="1.18s" dur="0.2s" fill="freeze" /></circle>
+<circle cx="597.8" cy="61.6" r="3.5" fill="#2f81f7"><animate attributeName="opacity" from="0" to="1" begin="1.21s" dur="0.2s" fill="freeze" /></circle>
+<circle cx="610.8" cy="61.6" r="3.5" fill="#2f81f7"><animate attributeName="opacity" from="0" to="1" begin="1.23s" dur="0.2s" fill="freeze" /></circle>
+<circle cx="623.9" cy="56.2" r="3.5" fill="#2f81f7"><animate attributeName="opacity" from="0" to="1" begin="1.26s" dur="0.2s" fill="freeze" /></circle>
+<circle cx="636.9" cy="56.2" r="3.5" fill="#2f81f7"><animate attributeName="opacity" from="0" to="1" begin="1.29s" dur="0.2s" fill="freeze" /></circle>
+<circle cx="650.0" cy="50.8" r="3.5" fill="#2f81f7"><animate attributeName="opacity" from="0" to="1" begin="1.32s" dur="0.2s" fill="freeze" /></circle>
+<circle cx="663.0" cy="50.8" r="3.5" fill="#2f81f7"><animate attributeName="opacity" from="0" to="1" begin="1.34s" dur="0.2s" fill="freeze" /></circle>
+<circle cx="676.1" cy="45.4" r="3.5" fill="#2f81f7"><animate attributeName="opacity" from="0" to="1" begin="1.37s" dur="0.2s" fill="freeze" /></circle>
+<circle cx="689.1" cy="45.4" r="3.5" fill="#2f81f7"><animate attributeName="opacity" from="0" to="1" begin="1.40s" dur="0.2s" fill="freeze" /></circle>
+<circle cx="702.1" cy="45.4" r="3.5" fill="#2f81f7"><animate attributeName="opacity" from="0" to="1" begin="1.42s" dur="0.2s" fill="freeze" /></circle>
+<circle cx="715.2" cy="40.0" r="3.5" fill="#2f81f7"><animate attributeName="opacity" from="0" to="1" begin="1.45s" dur="0.2s" fill="freeze" /></circle>
+<circle cx="728.2" cy="40.0" r="3.5" fill="#2f81f7"><animate attributeName="opacity" from="0" to="1" begin="1.48s" dur="0.2s" fill="freeze" /></circle>
+<circle cx="741.3" cy="40.0" r="3.5" fill="#2f81f7"><animate attributeName="opacity" from="0" to="1" begin="1.51s" dur="0.2s" fill="freeze" /></circle>
+<circle cx="754.3" cy="40.0" r="3.5" fill="#2f81f7"><animate attributeName="opacity" from="0" to="1" begin="1.53s" dur="0.2s" fill="freeze" /></circle>
+<circle cx="767.3" cy="40.0" r="3.5" fill="#2f81f7"><animate attributeName="opacity" from="0" to="1" begin="1.56s" dur="0.2s" fill="freeze" /></circle>
+<circle cx="780.4" cy="40.0" r="3.5" fill="#2f81f7"><animate attributeName="opacity" from="0" to="1" begin="1.59s" dur="0.2s" fill="freeze" /></circle>
+<circle cx="793.4" cy="45.4" r="3.5" fill="#2f81f7"><animate attributeName="opacity" from="0" to="1" begin="1.62s" dur="0.2s" fill="freeze" /></circle>
+<circle cx="806.5" cy="45.4" r="3.5" fill="#2f81f7"><animate attributeName="opacity" from="0" to="1" begin="1.64s" dur="0.2s" fill="freeze" /></circle>
+<circle cx="819.5" cy="50.8" r="3.5" fill="#2f81f7"><animate attributeName="opacity" from="0" to="1" begin="1.67s" dur="0.2s" fill="freeze" /></circle>
+<circle cx="832.5" cy="50.8" r="3.5" fill="#2f81f7"><animate attributeName="opacity" from="0" to="1" begin="1.70s" dur="0.2s" fill="freeze" /></circle>
+<circle cx="845.6" cy="50.8" r="3.5" fill="#2f81f7"><animate attributeName="opacity" from="0" to="1" begin="1.73s" dur="0.2s" fill="freeze" /></circle>
+<circle cx="858.6" cy="50.8" r="3.5" fill="#2f81f7"><animate attributeName="opacity" from="0" to="1" begin="1.75s" dur="0.2s" fill="freeze" /></circle>
+<circle cx="871.7" cy="45.4" r="3.5" fill="#2f81f7"><animate attributeName="opacity" from="0" to="1" begin="1.78s" dur="0.2s" fill="freeze" /></circle>
+<circle cx="884.7" cy="45.4" r="3.5" fill="#2f81f7"><animate attributeName="opacity" from="0" to="1" begin="1.81s" dur="0.2s" fill="freeze" /></circle>
+<circle cx="897.8" cy="45.4" r="3.5" fill="#2f81f7"><animate attributeName="opacity" from="0" to="1" begin="1.84s" dur="0.2s" fill="freeze" /></circle>
+<circle cx="910.8" cy="45.4" r="3.5" fill="#2f81f7"><animate attributeName="opacity" from="0" to="1" begin="1.86s" dur="0.2s" fill="freeze" /></circle>
+<circle cx="923.8" cy="45.4" r="3.5" fill="#2f81f7"><animate attributeName="opacity" from="0" to="1" begin="1.89s" dur="0.2s" fill="freeze" /></circle>
+<circle cx="936.9" cy="45.4" r="3.5" fill="#2f81f7"><animate attributeName="opacity" from="0" to="1" begin="1.92s" dur="0.2s" fill="freeze" /></circle>
+<circle cx="949.9" cy="45.4" r="3.5" fill="#2f81f7"><animate attributeName="opacity" from="0" to="1" begin="1.95s" dur="0.2s" fill="freeze" /></circle>
+<circle cx="963.0" cy="45.4" r="3.5" fill="#2f81f7"><animate attributeName="opacity" from="0" to="1" begin="1.97s" dur="0.2s" fill="freeze" /></circle>
 <circle cx="976.0" cy="45.4" r="3.5" fill="#2f81f7"><animate attributeName="opacity" from="0" to="1" begin="2.00s" dur="0.2s" fill="freeze" /></circle>
   <text x="24" y="270" fill="#8b949e" font-family="sans-serif" font-size="11">2026-08-23</text>
-  <text x="906" y="270" fill="#8b949e" font-family="sans-serif" font-size="11">2026-11-24</text>
+  <text x="906" y="270" fill="#8b949e" font-family="sans-serif" font-size="11">2026-11-25</text>
   <text x="24" y="30" fill="#8b949e" font-family="sans-serif" font-size="11">57 stars</text>
 </svg>
